@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Router from './Pages/Router';
+// import ReactGA from 'react-ga';
 
-function App() {
+const App = () => {
+  // Initialize google analytics page view tracking
+
+  // React.useEffect(()=>{
+  //   ReactGA.initialize('UA-171800971-1',{
+  //       debug: true,
+  //       titleCase: false,
+  //   });
+  //   ReactGA.pageview(window.location.pathname + window.location.search);
+  // },[])
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Router />
     </div>
   );
 }
