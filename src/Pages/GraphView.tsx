@@ -182,6 +182,8 @@ const GraphView: React.FC<GraphViewProps> = () => {
                                                                             bd='1px solid rgba(0,0,0,0.4)'
                                                                             cursor='pointer'
 
+                                                                            bgcl={i===0 ? 'lightblue':'LightSalmon'}
+
                                                                             onMouseEnter={(e)=>{
                                                                                 e.currentTarget.style.backgroundColor = 'Moccasin';
                                                                             }}
