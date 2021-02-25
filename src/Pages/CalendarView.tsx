@@ -222,7 +222,7 @@ const CalendarView: React.FC<CalendarViewProps> = () => {
     
 
     return ( 
-        <s.Flex minht='50vh' blue >
+        <s.Flex minht='50vh' >
 
             <s.FlexR wd='80%' >
 
